@@ -1,5 +1,6 @@
 import 'package:bubble/bubble.dart';
 import 'package:flutter/material.dart';
+import 'package:fylo_data_storage_component/bottom_app_bar.dart';
 import 'package:fylo_data_storage_component/colors.dart';
 import 'package:fylo_data_storage_component/custom_progress_indicator.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -65,6 +66,7 @@ class FyloDataStorageMobileLayout extends StatelessWidget {
                               children: [
                                 SvgPicture.asset(
                                   "lib/assets/logo.svg",
+                                  // ignore: deprecated_member_use
                                   color: Colors.white,
                                   width: 25,
                                   height: 25,
@@ -178,7 +180,7 @@ class FyloDataStorageMobileLayout extends StatelessWidget {
                         stick: true,
                         nip: BubbleNip.rightBottom,
                         showNip: false,
-                        color: Colors.white,
+                        color: AppColors.paleBlue,
                         child: Text.rich(
                           TextSpan(
                             style: GoogleFonts.raleway(
@@ -190,6 +192,7 @@ class FyloDataStorageMobileLayout extends StatelessWidget {
                                 style: GoogleFonts.raleway(
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold,
+                                  color: AppColors.veryDarkBlue,
                                 ),
                               ),
                               TextSpan(
@@ -211,6 +214,7 @@ class FyloDataStorageMobileLayout extends StatelessWidget {
           );
         },
       ),
+       bottomNavigationBar: bottomAppBar(),
     );
   }
 }

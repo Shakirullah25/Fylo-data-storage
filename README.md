@@ -20,13 +20,9 @@ This is a solution to the [Fylo Data Storage Component challenge on frontend Men
 
 ### Screenshot
 
-### Desktop Design
+![](./lib/assets/Screenshot%20(257).png)
 
-![](./lib/assets/Screenshot_(257).png)
-
-### Mobile Design
-
-![](./lib/assets/Screenshot_(258).png)
+![](./lib/assets/Screenshot%20(258).png)
 
 ### Links
 
