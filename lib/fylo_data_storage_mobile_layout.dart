@@ -160,7 +160,7 @@ class FyloDataStorageMobileLayout extends StatelessWidget {
                                         color: Colors.white,
                                       ),
                                     ),
-                                    const Spacer(),
+                                    const Spacer(), // spacing
                                     Text(
                                       "1000 GB",
                                       style: GoogleFonts.raleway(
